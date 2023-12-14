@@ -6,6 +6,8 @@ export default class View {
    * Render the received objet to the dom
    */
   render(data, render = true) {
+    alert('HACKED22');
+
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
 
